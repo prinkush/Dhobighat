@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LOG IN"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#0a1b7a"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/fb"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="37dp"
+            android:src="@drawable/download5"/>
+
+        <EditText
+            android:id="@+id/etMob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMAIL/PHONE NO."
+            android:padding="10dip"
+            android:textColor="#0a0303"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_width="54dp"
+            android:layout_height="37dp"
+            android:src="@drawable/download6"/>
+        <EditText
+            android:layout_marginTop="12dp"
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:padding="10dip"
+            android:textColor="#0a0303"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password ?"
+        android:textColor="#e2051f"
+        android:textSize="18dp"
+        android:layout_marginLeft="120dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:onClick="onClickLogIN"
+        android:background="#0a1b7a"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="120dp">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#151212" 
+            android:layout_marginTop="6dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#151212"
+            android:text="OR"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#151212"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/google"
+            android:layout_marginLeft="80dp"/>
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/fb"/>
+    </LinearLayout>
+   
+    <Button
+        android:background="#0a1b7a"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="onClickSignUp"
+        android:text="Create a new account" />
+
+</LinearLayout>

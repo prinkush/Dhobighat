@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#23499812">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0a1b7a">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            android:textSize="50dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#fff"
+            android:layout_marginRight="90dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#302011"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="130dp"/>
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="230dp"
+            android:text="______________________"
+            android:textSize="30dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#302011"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="200dp"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="230dp"
+            android:text="______________________"
+            android:textSize="30dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#302011"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="280dp"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="230dp"
+            android:text="______________________"
+            android:textSize="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#302011"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="350dp"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="230dp"
+            android:text="______________________"
+            android:textSize="30dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT PROFILE"
+            android:textSize="30dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="450dp"
+            android:background="#0a1b7a"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHANGE PASSWORD"
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="530dp"
+            android:background="#0a1b7a"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0a1b7a"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/ivarrow9"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrow"
+
+            />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQ"
+            android:textColor="#ffff"
+            android:textSize="40dp"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                android:text="In case Dhobi Ghat lost/damage my clothes?"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="130dp"
+                android:text="Though we take utmost care of your garments but  still if we loose/damage your clothes due to human error or negligence then we are liable to ay the compensation according to our policy."
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="260dp"
+                android:text="What if I can't be home for my scheduled pick-up or drrop off?"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="320dp"
+                android:text="You can calland inform us,we can drop adjust accordingly.Alternatively,we can drop at an alternate location if needed."
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="400dp"
+                android:text="When will I get my clothes back?"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="430dp"
+                android:text="Turnaround time for wash,fold and iron is 48 Hours and Turnaround time for dry cleaning is 3-5 days(depending upon articles for cleaning)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="540dp"
+                android:text="How does Dhobi Ghat work?"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="580dp"
+                android:text="Its very easy,you can order through our android app,call.We pick up your clothes,do them as per requirement(wash/dry/clean/iron)and deliver back at your doorsteps within the committed time limit. "
+                android:textSize="20dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
